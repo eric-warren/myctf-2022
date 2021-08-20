@@ -1,0 +1,6 @@
+name: "password1"
+description: "Make sure to put it in myctf{}"
+hints:
+    - "Check your ascii tables"
+based-on: "https://github.com/redpwn/redpwnctf-2019-challenges/tree/68fe2c30acf697c9ca246cd209398a5c14969ce9/reverse/generic_crackme"
+flag: myctf{veryeasy}

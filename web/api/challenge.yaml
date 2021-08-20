@@ -1,0 +1,6 @@
+name: "api"
+description: "Frontend is overrated! API rocks!"
+hints:
+    - "eval is always safe to use right?"
+based-on: "https://ctftime.org/task/16089"
+flag: myctf{us3_a_s3cure_k3y_f0r_y0ur_jwt}

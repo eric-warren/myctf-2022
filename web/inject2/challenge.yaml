@@ -1,0 +1,6 @@
+name: "inject2"
+description: "I have some fancy encryption so its unhackable"
+hints:
+    - "What is client side and what is server side?"
+based-on: "https://github.com/redpwn/redpwnctf-2021-challenges/tree/63a4b42630ed70edc31f5c4876478e874757d28d/web/secure"
+flag: myctf{3v3n_m0r3_5ql}

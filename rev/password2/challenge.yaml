@@ -1,0 +1,6 @@
+name: "password2"
+description: "Same but harder. Make sure to put it in myctf{}"
+hints:
+    - "does that function even do anything"
+based-on: "https://github.com/redpwn/redpwnctf-2019-challenges/tree/68fe2c30acf697c9ca246cd209398a5c14969ce9/reverse/generic_crackme"
+flag: myctf{noteasy}

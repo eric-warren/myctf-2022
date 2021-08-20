@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <wchar.h>
 
-wchar_t* flag = L"flag{1t_1s_v3ry_v3ry_w1d3}";
+wchar_t* flag = L"myctf{1t_1s_v3ry_v3ry_w1d3}";
 
 int main() {
   wchar_t buffer[80];

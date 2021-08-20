@@ -1,0 +1,6 @@
+name: "david-byrne-online-tailor"
+description: "Something seems off about these guys' calculations... The flag is in /flag/flag.txt"
+hints:
+    - "eval is always safe to use right?"
+based-on: "https://github.com/infosec-ucalgary/magpieCTF-2021/tree/master/challenges/web-exploitation/david-byrne-online-tailor"
+flag: myctf{3v4l_15_s4f3_l0l}

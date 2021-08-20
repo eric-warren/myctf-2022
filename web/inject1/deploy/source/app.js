@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 
 const db = new sqlite3.Database(':memory:');
 
-const flag = "myctf{v3ry_g0od_0rm}";
+const flag = "myctf{w0w_5ql_c00l}";
 
 // yes i know this is callback hell no im not sure if sqlite3 supports promises
 // and yes this is necessary because of a race condition on program start

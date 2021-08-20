@@ -19,7 +19,6 @@ FROM node:16-buster-slim
 WORKDIR /app
 
 ENV NODE_ENV production
-ENV FLAG flag{50m37h1n6_50m37h1n6_cl13n7_n07_600d}
 
 COPY --from=build /app /app
 

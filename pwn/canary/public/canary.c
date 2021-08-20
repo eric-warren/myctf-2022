@@ -1,4 +1,3 @@
-// gcc -Wall -no-pie -fstack-protector canary.c -o canary
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -14,7 +13,6 @@ int main() {
     char name[32];
     char rating[32];
     printf("I need your name before I can tell a joke\n");
-    // This should be safe relative to BOF
     fgets(name, sizeof(name), stdin);
     printf("Thanks, ");
     printf(name);
@@ -26,6 +24,5 @@ int main() {
 }
 
 void dont_look_at_me() {
-    // system("/bin/sh"); // Was inconsistent if stack got borked (via EBP overwrite)
     execve("/bin/sh", NULL, NULL);
 }

@@ -1,0 +1,6 @@
+name: "inject1"
+description: "Inject some fun into your life"
+hints:
+    - "I wonder if that password field is vulnerable"
+based-on: "https://github.com/redpwn/redpwnctf-2021-challenges/tree/master/web/orm-bad"
+flag: myctf{w0w_5ql_c00l}

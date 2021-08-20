@@ -31,7 +31,7 @@ app.post('/login', (req, res) => {
   try {
     const id = db.prepare(query).get()?.id;
 
-    if (id) return res.redirect(`/?message=${process.env.FLAG}`);
+    if (id) return res.redirect(`/?message=myctf{3v3n_m0r3_5ql}`);
     else throw new Error('Incorrect login');
   } catch {
     return res.redirect(
