@@ -1,7 +1,7 @@
 version: '2.1'
 
 services:
-    login:
+    david-byrne-online-tailor:
         build: .
         ports:
-            - '100010:80'
+            - '10006:80'

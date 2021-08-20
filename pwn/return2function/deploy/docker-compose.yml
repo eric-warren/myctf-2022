@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-    buffer-1:
+    return2function:
         build: .
         ports:
-            - '10003:1337'
+            - '10002:1337'

@@ -1,7 +1,7 @@
 version: '2.1'
 
 services:
-    login:
+    api:
         build: .
         ports:
-            - '10011:80'
+            - '10007:80'

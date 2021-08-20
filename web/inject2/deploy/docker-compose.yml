@@ -1,7 +1,7 @@
 version: '2.1'
 
 services:
-    login:
+    inject2:
         build: .
         ports:
-            - '10008:3000'
+            - '10005:3000'

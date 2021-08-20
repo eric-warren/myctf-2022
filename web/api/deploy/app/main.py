@@ -18,8 +18,8 @@ def login():
     if "username" not in request.form or "password" not in request.form:
         return '{"Error":"Missing username or password field."}'
         
-    if request.form['username'] == guest and request.form['password'] == guest:
-        return f'{"Token":"Bearer {guest}"}'
+    if request.form['username'] == "guest" and request.form['password'] == "guest":
+        return f'{{"Token":"Bearer {guest}"}}'
         
     return 'Login Failed'
 
@@ -28,7 +28,7 @@ def flag():
     if 'Authorization' not in request.headers:
         return '{"Error":"Authorization header not found! Login with guest credentials."}'\
     
-    if request.header['Authorization'] == f'Bearer {admin}':
+    if request.headers['Authorization'] == f'Bearer {admin}':
         return 'myctf{us3_a_s3cure_k3y_f0r_y0ur_jwt}'
 
 
