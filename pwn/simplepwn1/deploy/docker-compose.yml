@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+    simple-pwn1:
+        build: .
+        ports:
+            - '10001:1337'
