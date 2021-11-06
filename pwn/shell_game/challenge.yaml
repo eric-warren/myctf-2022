@@ -1,0 +1,8 @@
+name: "shell_game"
+description: "Its a fun game so dont cheat"
+hints:
+    - "I wonder if you can load bin/sh into a variable?"
+difficulty" 5
+based-on: "https://github.com/DownUnderCTF/Challenges_2021_Public/tree/main/pwn/babygame"
+flag: myctf{fun_sh3ll_games}
+docker-port: 1337

@@ -1,0 +1,1 @@
+open in wireshark, follow telnet and crack password in hash cracker

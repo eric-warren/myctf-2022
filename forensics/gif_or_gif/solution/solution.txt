@@ -1,0 +1,1 @@
+take each frame and combined the half qr codes and scan them

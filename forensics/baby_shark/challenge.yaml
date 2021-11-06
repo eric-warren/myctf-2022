@@ -1,0 +1,6 @@
+name: "baby_shark"
+description: "I need to tel you something over the net. Wrap awnser in myctf{}"
+difficulty: 1
+hints:
+    - "What telnet doesnt hash passwords"
+flag: myctf{Hypothetically}

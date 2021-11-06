@@ -2,6 +2,7 @@ name: "return2function"
 description: "I left my function in the woods and need to get back to it"
 hints:
     - "There is a symbol on the sign maybe it will tell me how to get back"
+difficulty" 3
 based-on: "https://github.com/redpwn/redpwnctf-2021-challenges/tree/master/pwn/ret2generic-flag-reader"
-flag: myctf{h0w_d1d_y0u_637_h3r3}
+flag: myctf{h0w_d1d_y0u_g37_h3r3}
 docker-port: 1337

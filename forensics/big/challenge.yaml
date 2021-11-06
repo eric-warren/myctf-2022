@@ -1,0 +1,6 @@
+name: "big"
+description: "How big is it?"
+difficulty: 4
+hints:
+    - "I wonder what the PNG header is"
+flag: myctf{y0u_f0und_th3_s1z3}

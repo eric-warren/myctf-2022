@@ -1,0 +1,6 @@
+name: "gif_or_gif"
+description: "QR Codes WOW!"
+difficulty: 0.5
+hints:
+    - "I wonder if there color coded"
+flag: myctf{mu1tip1e_qr_c0de_w0w}

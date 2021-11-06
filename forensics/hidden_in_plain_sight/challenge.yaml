@@ -1,0 +1,6 @@
+name: "hidden_in_plain_sight"
+description: "I wonder who made it?"
+difficulty: 2
+hints:
+    - "The picture is very large I wonder why? Is there something more?"
+flag: myctf{w0w_1t_wa5_h1dd3n}

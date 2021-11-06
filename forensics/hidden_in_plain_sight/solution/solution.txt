@@ -1,0 +1,1 @@
+read camera maker exif and b64 decode to get thisisnotapassword then steghide extract with that password
