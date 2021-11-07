@@ -4,4 +4,4 @@ services:
     return2function:
         build: .
         ports:
-            - '10002:1337'
+            - '10001:1337'

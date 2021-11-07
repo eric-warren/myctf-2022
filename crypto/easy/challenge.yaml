@@ -1,0 +1,5 @@
+name: "easy"
+description: "The number are very small. Wrap flag in myctf{}"
+difficulty: 4
+flag: myctf{m1n1_ecc}
+based-on: "https://github.com/redpwn/redpwnctf-2021-challenges/tree/master/crypto/blecc"

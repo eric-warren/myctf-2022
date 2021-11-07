@@ -1,0 +1,4 @@
+name: "recursive"
+description: "How many times can you endode soemthing"
+difficulty: 1
+flag: myctf{recursive_encoding}

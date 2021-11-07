@@ -1,0 +1,5 @@
+name: "substitution-cipher"
+description: "Its just a subsitution cipher"
+difficulty: 3
+flag: myctf{why_not_rot_13}
+based-on: "https://github.com/DownUnderCTF/Challenges_2021_Public/tree/main/crypto/substitution-cipher-i"

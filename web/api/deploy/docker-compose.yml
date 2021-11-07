@@ -4,4 +4,4 @@ services:
     api:
         build: .
         ports:
-            - '10007:80'
+            - '10005:80'

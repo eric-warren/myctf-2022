@@ -1,0 +1,4 @@
+name: "encryption"
+description: "Its just encryption you can figure it out"
+difficulty: 2
+flag: myctf{its_just_aes_not_hard}

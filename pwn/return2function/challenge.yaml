@@ -5,4 +5,4 @@ hints:
 difficulty" 3
 based-on: "https://github.com/redpwn/redpwnctf-2021-challenges/tree/master/pwn/ret2generic-flag-reader"
 flag: myctf{h0w_d1d_y0u_g37_h3r3}
-docker-port: 1337
+docker-port: 10001

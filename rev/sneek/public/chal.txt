@@ -1,0 +1,72 @@
+  4           0 LOAD_CONST               1 ('')
+              2 STORE_FAST               0 (f)
+
+  5           4 LOAD_CONST               2 ('p{dt')
+              6 STORE_FAST               1 (z)
+
+  6           8 LOAD_CONST               3 ('eyfp')
+             10 STORE_FAST               2 (x)
+
+  7          12 LOAD_CONST               4 ('nYZ')
+             14 STORE_FAST               3 (v)
+
+  8          16 LOAD_CONST               5 ('ddehhR')
+             18 STORE_FAST               4 (n)
+
+  9          20 LOAD_CONST               6 ('SdcT[')
+             22 STORE_FAST               5 (m)
+
+ 10          24 LOAD_FAST                1 (z)
+             26 LOAD_FAST                2 (x)
+             28 BINARY_ADD
+             30 LOAD_FAST                3 (v)
+             32 BINARY_ADD
+             34 LOAD_FAST                4 (n)
+             36 BINARY_ADD
+             38 LOAD_FAST                5 (m)
+             40 BINARY_ADD
+             42 LOAD_CONST               7 ('OXdg')
+             44 BINARY_ADD
+             46 STORE_FAST               6 (a)
+
+ 11          48 LOAD_GLOBAL              0 (enumerate)
+             50 LOAD_FAST                6 (a)
+             52 CALL_FUNCTION            1
+             54 GET_ITER
+        >>   56 FOR_ITER                48 (to 106)
+             58 UNPACK_SEQUENCE          2
+             60 STORE_FAST               7 (i)
+             62 STORE_FAST               8 (b)
+
+ 12          64 LOAD_GLOBAL              1 (ord)
+             66 LOAD_FAST                8 (b)
+             68 CALL_FUNCTION            1
+             70 STORE_FAST               9 (c)
+
+ 13          72 LOAD_FAST                9 (c)
+             74 LOAD_CONST               8 (3)
+             76 BINARY_SUBTRACT
+             78 STORE_FAST               9 (c)
+
+ 14          80 LOAD_FAST                9 (c)
+             82 LOAD_FAST                7 (i)
+             84 BINARY_ADD
+             86 STORE_FAST               9 (c)
+
+ 15          88 LOAD_GLOBAL              2 (chr)
+             90 LOAD_FAST                9 (c)
+             92 CALL_FUNCTION            1
+             94 STORE_FAST               9 (c)
+
+ 16          96 LOAD_FAST                0 (f)
+             98 LOAD_FAST                9 (c)
+            100 INPLACE_ADD
+            102 STORE_FAST               0 (f)
+            104 JUMP_ABSOLUTE           56
+
+ 17     >>  106 LOAD_GLOBAL              3 (print)
+            108 LOAD_FAST                0 (f)
+            110 CALL_FUNCTION            1
+            112 POP_TOP
+            114 LOAD_CONST               0 (None)
+            116 RETURN_VALUE

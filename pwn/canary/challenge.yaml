@@ -5,4 +5,4 @@ hints:
 difficulty: 4
 based-on: "https://github.com/miguelpduarte/SINFCTF2020-public/tree/735e25dfb04b49fa51e057c67806c8d32621aae2/Pwn/Coal-Mine"
 flag: myctf{b1rdi3b1rdi3b1rdi3}
-docker-port: 1337
+docker-port: 10000

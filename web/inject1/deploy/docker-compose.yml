@@ -4,4 +4,4 @@ services:
     inject1:
         build: .
         ports:
-            - '10004:80'
+            - '10007:80'

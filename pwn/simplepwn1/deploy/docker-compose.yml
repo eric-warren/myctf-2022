@@ -4,4 +4,4 @@ services:
     simple-pwn1:
         build: .
         ports:
-            - '10000:1337'
+            - '10002:1337'

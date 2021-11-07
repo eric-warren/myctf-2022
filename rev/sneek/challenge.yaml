@@ -1,0 +1,4 @@
+name: "sneek"
+description: "Everyone likes the sneek"
+difficulty: 3
+flag: myctf{its_almost_assembly}

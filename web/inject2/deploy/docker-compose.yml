@@ -4,4 +4,4 @@ services:
     inject2:
         build: .
         ports:
-            - '10005:3000'
+            - '10008:3000'

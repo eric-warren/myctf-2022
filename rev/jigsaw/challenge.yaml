@@ -3,4 +3,5 @@ description: "Everyone likes a good puzzle"
 hints:
     - "just put together all the pieces in the right order and you have the flag"
 based-on: "this one in my own"
+difficulty: 2
 flag: myctf{1_h0p3_u_d1d_n0t_d0_thi5_m4nual1y}

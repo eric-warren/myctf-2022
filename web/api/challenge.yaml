@@ -1,6 +1,8 @@
 name: "api"
-description: "Frontend is overrated! API rocks!"
+description: "Who needs a website?"
 hints:
     - "eval is always safe to use right?"
+difficulty: 3
 based-on: "https://ctftime.org/task/16089"
 flag: myctf{us3_a_s3cure_k3y_f0r_y0ur_jwt}
+docker-port: 10005

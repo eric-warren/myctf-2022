@@ -2,5 +2,6 @@ name: "wider_then_usual"
 description: "Wow it is very wide"
 hints:
     - "The string you have is very wide I wonder if its hiding the flag"
+difficulty: 1
 based-on: "https://github.com/redpwn/redpwnctf-2021-challenges/tree/master/rev/wstrings"
 flag: myctf{1t_1s_v3ry_v3ry_w1d3}

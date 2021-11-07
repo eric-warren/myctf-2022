@@ -5,4 +5,4 @@ hints:
 difficulty: 1.5
 based-on: "https://github.com/redpwn/redpwnctf-2021-challenges/tree/master/pwn/beginner-generic-pwn-number-0"
 flag: myctf{y0u_d1d_17_aga1n_w0w}
-docker-port: 1337
+docker-port: 10004
